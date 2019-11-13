@@ -4,8 +4,16 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+var user_choice = ""
+var computer_choice =""
+var winner = ""
+var loser =""
+$("#shoot").click(function(){
+    let random = Math.random(); 
+    if(random < .33){
+        computerchoice = "rock";
+    }
 
 
 
-// DOCUMENT READY FUNCTION BELOW
-
+});
